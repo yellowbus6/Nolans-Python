@@ -1,0 +1,6 @@
+name = input('What is your name? ')
+age = int(input('What is your age? '))
+print('Your name is ' + str(name))
+print('Your age is ' + str(age))
+print('Youve been alive for ' + str((age*12)) + ' months')
+print('Youve been alive for ' + str((age*365)) + ' days')

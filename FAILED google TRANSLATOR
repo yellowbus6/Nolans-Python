@@ -1,0 +1,10 @@
+# Nolans-Python
+from translate import Translator
+
+languages = ['fr', 'it', 'es', 'ru', 'zh']
+    text = input('What text would you like to Translate? >> ')
+for language in languages:
+    translator = Translator(provider='libre', from_lang='en', to_lang=language)
+    translation = Translator.translate(text)
+
+    print(f'{language}: {translation}')
